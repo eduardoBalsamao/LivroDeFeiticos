@@ -1,0 +1,38 @@
+.header{
+    width: 100%;
+    position: fixed;
+    box-shadow: 10px 2px 5px black;
+
+}
+.root{
+    display: flex;
+    flex-direction: column;
+}
+.tittle {
+    font-size: large;
+    color: whitesmoke;
+
+}
+.toolbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 64px;
+    padding: 0 24px;
+}
+
+.main{
+    height: 100vh;
+    display: flex;
+    width: auto;
+    margin: 0 auto;
+    background-image: url("../img/wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.welcome{
+    width: 400px;
+    background: yellowgreen;
+    padding: 24px;
+}
